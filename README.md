@@ -32,7 +32,7 @@ DEV environment: exported file to ./ping-socket.tar
 To run use docker load -i ./ping-socket.tarr
 ```
 
-### Approach 2: Use DevContainer
+### Approach 2: Install tools locally
 This approach expect you to install [Go](https://go.dev/) and [Dagger.io CLI](https://docs.dagger.io/cli) on your development machine.
 
 1. Install [Go](https://go.dev/) and [Dagger.io CLI](https://docs.dagger.io/cli)
