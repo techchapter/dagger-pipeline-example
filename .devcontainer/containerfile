@@ -1,0 +1,5 @@
+FROM mcr.microsoft.com/devcontainers/go:1-1.21-bullseye
+
+# Install Docker & Dagger
+RUN curl -fsSL https://get.docker.com | sh
+RUN curl -L https://dl.dagger.io/dagger/install.sh | sh
