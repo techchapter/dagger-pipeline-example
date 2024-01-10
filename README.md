@@ -29,7 +29,7 @@ dagger run --silent go run ./ci/ci.go
 5. The output should look something like this
 ```bash
 DEV environment: exported file to ./ping-socket.tar 
-To run use docker load -i ./ping-socket.tarr
+To run use docker load -i ./ping-socket.tar
 ```
 
 ### Approach 2: Install tools locally
@@ -41,22 +41,15 @@ This approach expect you to install [Go](https://go.dev/) and [Dagger.io CLI](ht
 git clone https://github.com/techchapter/dagger-pipeline-example.git
 ```
 
-3. Open the repository in Visual Studio Code
-```bash
-code dagger-pipeline-example
-```
-
-4. Run command "Reopen in Container" inside Visual Studio Code
-
-5. Run the [Dagger.io CLI](https://docs.dagger.io/cli) to test and build the pipeline locally
+3. Run the [Dagger.io CLI](https://docs.dagger.io/cli) to test and build the pipeline locally
 ```bash
 dagger run --silent go run ./ci/ci.go
 ```
 
-6. The output should look something like this
+4. The output should look something like this
 ```bash
 DEV environment: exported file to ./ping-socket.tar 
-To run use docker load -i ./ping-socket.tarr
+To run use docker load -i ./ping-socket.tar
 ```
 
 ## How to run the exmaple in GitHub actions
